@@ -1,1 +1,42 @@
-/* Denna fil skall innehålla din CSS kod */
+
+#logga {
+    width: 60px;
+}
+
+#wrapper {
+    background-color:#2ecc71;
+    display: grid;
+    grid-template-rows: 100px 400px auto;
+    grid-template-columns: 120px 3fr;
+    border: solid 5px black;
+    width:100vw;
+    min-height:100vh;
+    margin:auto;
+    grid-template-areas: 
+    'hd hd'
+    'as mn'
+    'as mn'
+    'ft ft';
+}
+
+header {
+    padding: 10px;
+    grid-area: hd;
+    border: solid 5px white;
+    
+}
+
+aside {
+    grid-area: as;
+    border: solid 5px white;
+}
+
+main {
+    grid-area: mn;
+    border: solid 5px white;
+}
+
+footer {
+    grid-area: ft;
+    border: solid 5px white;
+}
