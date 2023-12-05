@@ -7,7 +7,7 @@
     background-color:#2ecc71;
     display: grid;
     grid-template-rows: 100px 400px auto;
-    grid-template-columns: 120px 3fr;
+    grid-template-columns: 130px 3fr;
     border: solid 5px black;
     width:100vw;
     min-height:100vh;
@@ -20,15 +20,54 @@
 }
 
 header {
+    display: flex;
     padding: 10px;
     grid-area: hd;
     border: solid 5px white;
+    justify-content: flex-start;
     
+}
+
+#namn {
+    font-size: 30px;
+    padding-left:5px;
+    padding-right: 15px;
+    display: block;
+}
+
+#basics {
+    font-size: 25px;
+}
+
+#inter {
+    font-size: 25px;
+}
+
+#advanced {
+    font-size: 25px;
+}
+
+h2 {
+    margin: auto;
+}
+
+h2:hover {
+    color: #cc2e3a
+}
+
+#linje {
+    display:block;
+    height: 70px;
+    border-right: solid 5px white;
 }
 
 aside {
     grid-area: as;
     border: solid 5px white;
+}
+
+ul {
+    padding: 10px;
 }
 
 main {
