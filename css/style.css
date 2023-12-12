@@ -3,10 +3,27 @@
     width: 60px;
 }
 
+#CardWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+section {
+    border: 5px solid white;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
 #wrapper {
     background-color:#2ecc71;
     display: grid;
-    grid-template-rows: 100px 400px auto;
+    grid-template-rows: 100px 670px auto;
     grid-template-columns: 130px 3fr;
     border: solid 5px black;
     width:100vw;
@@ -14,7 +31,6 @@
     margin:auto;
     grid-template-areas: 
     'hd hd'
-    'as mn'
     'as mn'
     'ft ft';
 }
@@ -51,8 +67,17 @@ h2 {
     margin: auto;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#cc2e3a
+}
+
 h2:hover {
-    color: #cc2e3a
+    color: #cc2e3a 
 }
 
 #linje {
