@@ -23,11 +23,11 @@ section {
 #wrapper {
     background-color:#2ecc71;
     display: grid;
-    grid-template-rows: 100px 670px auto;
+    grid-template-rows: 100px 685px auto;
     grid-template-columns: 130px 3fr;
     border: solid 5px black;
     width:100vw;
-    min-height:100vh;
+    min-height:110vh;
     margin:auto;
     grid-template-areas: 
     'hd hd'
@@ -103,4 +103,14 @@ main {
 footer {
     grid-area: ft;
     border: solid 5px white;
+}
+
+aside div input{
+    padding: 1px;
+    width: 100px;
+}
+
+aside div{
+    padding: 5px;
+    margin: auto;
 }
